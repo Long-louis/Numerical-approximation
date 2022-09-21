@@ -7,6 +7,8 @@ Author:halongbay
 Date:2022/9/21 15:49
 
 """
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 def lagrange(X, Y, XX) -> list:
@@ -21,5 +23,15 @@ def lagrange(X, Y, XX) -> list:
         for k in range(len(XX)):
             YY[k] += lin[k] * Y[i]
     return YY
-n = 4
-X = [(-5 +  ]
+
+
+n = 14  # 对n值进行修改即可
+X = [(-5 + i * 10.0 / n) for i in range(0, n + 1)]
+Y = [1 / (1 + i ** 2) for i in X]
+XX = np.linspace(-5, 5, 1000)
+
+plt.figure()
+plt.plot(XX, lagrange(X, Y, XX), zorder=1)
+plt.plot(XX, 1 / (1 + XX ** 2), zorder=1)
+plt.scatter(X, Y, marker='.', color='r', zorder=2)
+plt.show()
