@@ -7,21 +7,21 @@ This is a temporary script file.
 import math
 import matplotlib.pyplot as plt
 
-'''
-1(1)
-x = 10**(-16)
+# x = 10 ** (-16)
+#
+# y = ((1 + x) - 1) / x
+#
+# print(y)
 
-y = ((1 + x) - 1)/x
 
-print(y)
-'''
+# 1(2)
+for n in range(101, 0, -1):
+    if (0.5 + 2 ** (-n)) > 0.5:
+        print(n)
+        break
 
-'''
-1(2)
-'''
-'''
- 2(1)
-'''
+
+# 2(1)
 
 
 def s_n(x, n):
@@ -31,9 +31,14 @@ def s_n(x, n):
     return y
 
 
+# print(s_n(-10, 20))
+# print(math.exp(-10))
+
 def E_r(x, n):
     return abs((s_n(x, n) - math.exp(x)) / math.exp(x))
 
+
+# print(E_r(-10, 20))
 
 N = [i for i in range(1, 21)]
 
