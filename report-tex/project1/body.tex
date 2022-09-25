@@ -51,3 +51,36 @@ $e^x$的级数展开式为$\sum_{n=0}^{\infty}\frac{x^n}{n!}$，将此展开式�
 利用python进行累加求和可得$I_{20}=0.12380383076256994$。
 
 由$I_{20}$的准确值即可验证方法二更加适合进行计算。
+\section{习题四 \ 序列是否收敛}
+
+计算可得$U_0=\frac{11}{2},U_1=\frac{61}{11}$，结合递推关系式可得$\lim _{n \rightarrow \infty} u_n=100$。
+
+首先取$(\alpha, \beta, \gamma)=(0,1,1)$，得到
+
+\begin{equation}
+    u_n=\frac{\beta 6^{n+1}+\gamma 5^{n+1}}{\beta 6^n+\gamma 5^n}
+\end{equation}
+于是$\lim _{n \rightarrow \infty} U_n=6$。
+
+针对迭代公式（1），100是一个稳定的收敛点，而6和5是不稳定的收敛点，对误差进行分析：
+\begin{equation}
+    \begin{aligned}
+          & 111-\frac{1130-\frac{3000}{u+\delta}}{u+\delta} \\
+          &=  111-1130(u+\delta)^{-1}+3000(u+\delta)^{-2} .
+    \end{aligned}
+\end{equation}
+同时对$(u+\delta)^{-2}$进行Taylor展开有：
+\begin{equation}
+    \begin{aligned}
+    &(u+\delta)^{-1}=\frac{1}{u}-\frac{1}{u^2} \delta-\frac{1}{u^3} \delta^2, \\
+    &(u+\delta)^{-2}=\frac{1}{u^2}-\frac{2}{u^3} \delta-\frac{3}{2 u^4} \delta^2 .
+    \end{aligned}
+    \end{equation}
+然后就有
+\begin{equation}
+    \begin{aligned}
+    &111-1130(u+\delta)^{-1}+3000(u+\delta)^{-2} \\
+    & \approx -1130 u^{-1}+3000 u^{-2}+\left(\frac{1130}{u^2}-\frac{6000}{u^3}\right) \delta .
+    \end{aligned}
+    \end{equation}
+所以最终产生了误差。
