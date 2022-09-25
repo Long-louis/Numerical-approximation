@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2966260d-4f8e-4637-8ed2-8f4e5a3b0014" name="变更" comment="project2">
-      <change afterPath="$PROJECT_DIR$/code/project1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (10).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (7).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (8).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/1 (9).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/2 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/2 (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/HITtemplate/main.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/HITtemplate/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/HIT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/body.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/cover.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/main.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/main.synctex.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project1/pic/x=-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/numerical-approximation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/numerical-approximation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/0E7DA1C615618778C23B8A9A8427CAE2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/11AB4CB392A6790FF434E3C05A0D780E.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/1C4CA004F18F7503E76320C4EDCEFF54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/26462EF0013F1D7645FCBD74B9D57C40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/26F54318B189D42E5E0D68B59D23EF16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/9E3601C59F7AB84AC3713CFCA82313FB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/A68B36FAE271FF386A540337AC361558.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/B03FB9D79DE1A4848E17053D48784299.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/D2AAE29163FF4E04246514D7140F5307.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/ED579F9DDDEC1D7B0287B5D751B2BF8A.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/HITtemplate/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/HITtemplate/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/HITtemplate/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/HITtemplate/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.log" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/The testfile for vscode/The LaTeX testfile for vscode/The testfile for vscode.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report-tex/project2/body.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/body.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/project1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/project1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project1/body.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project1/body.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project1/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project1/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project1/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project1/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project1/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project1/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project1/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project1/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +115,7 @@
       <workItem from="1663929304192" duration="70000" />
       <workItem from="1663929386759" duration="8657000" />
       <workItem from="1664017136710" duration="29000" />
+      <workItem from="1664072169304" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="project2">
       <created>1663752374401</created>
@@ -186,19 +153,8 @@
     <MESSAGE value="project2" />
     <option name="LAST_COMMIT_MESSAGE" value="project2" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code/project1.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/numerical_approximation$project2.coverage" NAME="project2 Coverage Results" MODIFIED="1663930272405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/numerical_approximation$project2.coverage" NAME="project2 Coverage Results" MODIFIED="1664072849704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/numerical_approximation$project1.coverage" NAME="project1 Coverage Results" MODIFIED="1663985970597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>

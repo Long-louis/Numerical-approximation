@@ -48,3 +48,10 @@ X2 = [E_r(10, n) for n in N]
 plt.plot(N, X1)
 
 plt.show()
+
+# 3(2)
+i = 0
+for n in range(0, 21):
+    i += 1 / (math.factorial(n) * (21 + n))
+
+print(i)
