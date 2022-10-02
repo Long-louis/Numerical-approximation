@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2966260d-4f8e-4637-8ed2-8f4e5a3b0014" name="变更" comment="project2">
-      <change afterPath="$PROJECT_DIR$/code/p2_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/project2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/chebyshev/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/chebyshev/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/chebyshev/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/chebyshev/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/p2_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/hermit/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/hermit/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/hermit/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/hermit/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/newton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/三次样条/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/三次样条/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/三次样条/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/三次样条/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/物体轨迹/linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-tex/project2/pic/线性插值.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/project2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/p2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project2/body.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/body.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project2/cover.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/cover.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project2/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project2/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report-tex/project2/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report-tex/project2/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/numerical-approximation/report-tex/project2/pic",
+    "last_opened_file_path": "E:/numerical-approximation/report-tex/project2/pic/物体轨迹",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -118,7 +129,8 @@
       <workItem from="1663929386759" duration="8657000" />
       <workItem from="1664017136710" duration="29000" />
       <workItem from="1664072169304" duration="1360000" />
-      <workItem from="1664351730982" duration="3630000" />
+      <workItem from="1664351730982" duration="4322000" />
+      <workItem from="1664704874923" duration="9528000" />
     </task>
     <task id="LOCAL-00001" summary="project2">
       <created>1663752374401</created>
@@ -134,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663772173410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project2">
+      <created>1664356200794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664356200794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +176,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="project2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/numerical_approximation$p2_2.coverage" NAME="p2_2 Coverage Results" MODIFIED="1664706074324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/numerical_approximation$project2.coverage" NAME="project2 Coverage Results" MODIFIED="1664355647437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/numerical_approximation$project2_1.coverage" NAME="project2_1 Coverage Results" MODIFIED="1664706032760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/numerical_approximation$project1.coverage" NAME="project1 Coverage Results" MODIFIED="1663985970597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>
