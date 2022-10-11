@@ -6,6 +6,12 @@ import math
 
 # （1）
 '''
+from scipy.interpolate import interp1d, PchipInterpolator
+
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
 x, y = [], []
 
 ns = [4, 10, 14, 20]
