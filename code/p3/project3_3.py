@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-#输入control points画出bezier曲线(随便画一个形状)
+
+
+# 输入control points画出bezier曲线(随便画一个形状)
 
 # B = (1-t)*P0+t*P1
 def one_bezier_curve(a, b, t):
@@ -40,6 +42,15 @@ def bezier_curve(x, y):
         b_x.append(n_bezier_curve(x, n, 0, each))
         b_y.append(n_bezier_curve(y, n, 0, each))
     return b_x, b_y
+
+
+def get_subdivision_points(t, controlPointCoordinate: set):
+    num_triangle = []
+    n = len(controlPointCoordinate)
+    for row in range
+    for row in range(1, n):
+        for column in range(0, n - row):
+            num_triangle[row][column] = (1-t)*
 
 
 if __name__ == "__main__":
