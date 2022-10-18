@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2966260d-4f8e-4637-8ed2-8f4e5a3b0014" name="变更" comment="project2">
-      <change afterPath="$PROJECT_DIR$/code/project3_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/project3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/NY}T~$%]UDYSC{2{$1K@2[A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_15-51-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_15-52-07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_15-54-08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_16-00-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_16-31-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/3 史晓冉 自由曲线设计/Snipaste_2022-10-05_16-56-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/p3/project3_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/p3/project3_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/p2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p2/p2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/p2_3._correct.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p2/p2_3._correct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/p2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p2/p2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/project1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p1/project1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/project2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p2/project2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/project3_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/project3_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.md" beforeDir="false" afterPath="$PROJECT_DIR$/project3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/numerical-approximation/report-tex/project2/pic/物体轨迹&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/numerical-approximation/report-tex/project2/pic/物体轨迹",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\numerical-approximation\code\p1" />
+      <recent name="E:\numerical-approximation\code\p2" />
+      <recent name="E:\numerical-approximation\code\p3" />
       <recent name="E:\numerical-approximation" />
     </key>
   </component>
@@ -93,7 +96,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\numerical-approximation\code\project2_1.py" />
+      <option name="SCRIPT_NAME" value="E:\numerical-approximation\code\p2\project2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +128,9 @@
       <workItem from="1664704874923" duration="9657000" />
       <workItem from="1664957270540" duration="4366000" />
       <workItem from="1665065358397" duration="15000" />
+      <workItem from="1665486089126" duration="224000" />
+      <workItem from="1665838997013" duration="896000" />
+      <workItem from="1666079005407" duration="8027000" />
     </task>
     <task id="LOCAL-00001" summary="project2">
       <created>1663752374401</created>
@@ -154,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664720701554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project2">
+      <created>1665486231386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665486231386</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
