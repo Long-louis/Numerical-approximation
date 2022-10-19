@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2966260d-4f8e-4637-8ed2-8f4e5a3b0014" name="变更" comment="project3-3">
-      <change afterPath="$PROJECT_DIR$/code/p3/project3_3_turtle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/p3/project3_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/HIT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/body.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/cover.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/main.synctex.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/pic/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/pic/bezier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/pic/datax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-tex/project3/pic/datay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/p4/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project4.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p3/project3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p3/project3_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.md" beforeDir="false" afterPath="$PROJECT_DIR$/project3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/numerical-approximation/report-tex/project3/pic",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/numerical-approximation/report-tex/project3/pic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\numerical-approximation\code\p1" />
@@ -137,7 +125,8 @@
       <workItem from="1666079005407" duration="12340000" />
       <workItem from="1666101583424" duration="674000" />
       <workItem from="1666102579829" duration="189000" />
-      <workItem from="1666139759255" duration="9765000" />
+      <workItem from="1666139759255" duration="10228000" />
+      <workItem from="1666166329904" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="project2">
       <created>1663752374401</created>
