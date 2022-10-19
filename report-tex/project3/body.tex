@@ -1,210 +1,43 @@
 \section{习题一 \ DrawBezier}
-
-
-1. 下段代码即为Lagrange插值法计算函数。\inputpython{E:/numerical-approximation/code/project2_1.py}{21}{32}
-2. 用下段代码生成等距节点。然后代入上述第一问Lagrange函数进行计算即可。\inputpython{E:/numerical-approximation/code/project2_1.py}{36}{39}
-
-\begin{figure}[htbp]
+下面即为绘制代码。
+\inputpython{E:/numerical-approximation/code/p3/project3_1.py}{1}{55}
+\begin{figure}[hb]
     \centering
-    \subfigure[$n=4$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/n=4.png}
-        \end{minipage}
-    }
-    \subfigure[$n=10$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/n=10.png}
-        \end{minipage}
-    }
-    \subfigure[$n=14$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/n=14.png}
-        \end{minipage}
-    }
-    \subfigure[$n=20$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/n=20.png}
-        \end{minipage}
-    }
-    \caption{等距节点差值}
-\end{figure}
-3. 用下段函数构造chebyshev节点。然后再带入第一问Lagrange函数计算即可。\inputpython{E:/numerical-approximation/code/project2_1.py}{44}{47}
-\begin{figure}[htbp]
-    \centering
-    \subfigure[$n=4$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/chebyshev/4.png}
-        \end{minipage}
-    }
-    \subfigure[$n=10$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/chebyshev/10.png}
-        \end{minipage}
-    }
-    \subfigure[$n=14$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/chebyshev/14.png}
-        \end{minipage}
-    }
-    \subfigure[$n=20$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/chebyshev/20.png}
-        \end{minipage}
-    }
-    \caption{chebyshev节点差值}
-\end{figure}
-4.Newton插值法
-\begin{figure}[htbp]
-    \centering
-
-    {
-        \begin{minipage}[b]{.9\linewidth}
-            \centering
-            \includegraphics[scale=0.6]{pic/newton(1).png}
-        \end{minipage}
-    }
-
-
-\end{figure}
-\begin{figure}[htbp]
-    \centering
-
-    {
-        \begin{minipage}[b]{.9\linewidth}
-            \centering
-            \includegraphics[scale=0.6]{pic/newton(2).png}
-        \end{minipage}
-    }
-
-
-    \caption{chebyshev节点差值}
-\end{figure}
-\section{习题二 \ 分段差值}
-1.分段线性插值方法
-\begin{figure}[htbp]
-    \centering
-
-    {
-        \begin{minipage}[b]{.9\linewidth}
-            \centering
-            \includegraphics[scale=0.6]{pic/线性插值.png}
-        \end{minipage}
-    }
-
-
-    \caption{分段线性插值方法}
+    \includegraphics[scale=0.5]{pic/bezier.png}
 \end{figure}
 
-2.分段3次Hermite插值方法
-\begin{figure}[htbp]
-    \centering
-    \subfigure[$n=4$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/hermit/4.png}
-        \end{minipage}
-    }
-    \subfigure[$n=10$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/hermit/10.png}
-        \end{minipage}
-    }
-    \subfigure[$n=14$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/hermit/14.png}
-        \end{minipage}
-    }
-    \subfigure[$n=20$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/hermit/20.png}
-        \end{minipage}
-    }
-    \caption{分段3次Hermite插值方法}
-\end{figure}
 \clearpage
-3.三次样条插值方法
+\section{习题二 \ 求任意输入t*对应点坐标}
+\inputpython{E:/numerical-approximation/code/p3/project3_2.py}{46}{66}
+假设输入的t*值为0.01，则在bezier曲线上标注如下图所示。
+\begin{figure}[hb]
+    \centering
+    \includegraphics[scale=0.5]{pic/2.png}
+\end{figure}
+
+\clearpage
+\section{习题三 \ 计算细分曲线控制点}
+下面为计算代码。
+\inputpython{E:/numerical-approximation/code/p3/project3_3.py}{47}{81}
+如下为计算所得x坐标和y坐标数字三角矩阵。
 \begin{figure}[htbp]
     \centering
-    \subfigure[$n=4$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/三次样条/4.png}
-        \end{minipage}
-    }
-    \subfigure[$n=10$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/三次样条/10.png}
-        \end{minipage}
-    }
-    \subfigure[$n=14$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/三次样条/14.png}
-        \end{minipage}
-    }
-    \subfigure[$n=20$]
-    {
-        \begin{minipage}[b]{.4\linewidth}
-            \centering
-            \includegraphics[scale=0.29]{pic/三次样条/20.png}
-        \end{minipage}
-    }
-    \caption{三次样条插值方法}
+    \includegraphics[]{pic/datax.png}
+    \includegraphics[]{pic/datay.png}
 \end{figure}
 
-\section{习题三 \ 物体轨迹}
+下图为计算所得的左曲线控制点和右曲线控制点。
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
     \centering
-
-    {
-        \begin{minipage}[b]{.9\linewidth}
-            \centering
-            \includegraphics[scale=0.6]{pic/物体轨迹/linear2.png}
-        \end{minipage}
-    }
-
-
-    \caption{分段线性插值方法}
+    \includegraphics[scale=0.5]{pic/controlpoints.png}
 \end{figure}
 
-\begin{figure}[htb]
+
+\clearpage
+\section{习题四 \ 升阶算法}
+升阶后散点图如下：
+\begin{figure}[htbp]
     \centering
-
-    {
-        \begin{minipage}[b]{.9\linewidth}
-            \centering
-            \includegraphics[scale=0.6]{pic/物体轨迹/cubic2.png}
-        \end{minipage}
-    }
-
-
-    \caption{三次样条插值方法}
+    \includegraphics[scale=0.5]{pic/4.png}
 \end{figure}

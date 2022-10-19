@@ -44,13 +44,24 @@ def bezier_curve(x, y):
     return b_x, b_y
 
 
-def get_subdivision_points(t, controlPointCoordinate: set):
-    num_triangle = []
+def get_subdivision_triangle(t, controlPointCoordinate):
     n = len(controlPointCoordinate)
-    for row in range
+    num_triangle = np.zeros((n, n))
+    for column in range(0, n):
+        num_triangle[0][column] = controlPointCoordinate[column]
     for row in range(1, n):
         for column in range(0, n - row):
-            num_triangle[row][column] = (1-t)*
+            num_triangle[row][column] = (1 - t) * num_triangle[row - 1][column] + t * num_triangle[row - 1][column + 1]
+    return num_triangle
+
+
+def get_subdivision_points(subdivision_triangle):
+    left_points = subdivision_triangle[:, 0]
+    n = len(left_points)
+    right_points = []
+    for count in range(0, n):
+        right_points.append(subdivision_triangle[count, n - count - 1])
+    return left_points, right_points
 
 
 if __name__ == "__main__":
@@ -59,8 +70,14 @@ if __name__ == "__main__":
     x = np.linspace(0, 0.2, 7)
     y = [-10, 10, 10, -20, 10, 10, -10]
     # plt.plot(x, y)
-
+    t = 6
+    triangle_x = get_subdivision_triangle(0.6, x)
+    triangle_y = get_subdivision_triangle(0.6, y)
+    left_x_points, right_x_points = get_subdivision_points(triangle_x)
+    left_y_points, right_y_points = get_subdivision_points(triangle_y)
     bezier_x, bezier_y = bezier_curve(x, y)
-    plt.plot(bezier_x, bezier_y)
+    plt.scatter(left_x_points,left_y_points)
+    plt.scatter(right_x_points,right_y_points,)
+
 
     plt.show()
