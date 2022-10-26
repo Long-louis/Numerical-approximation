@@ -13,7 +13,7 @@ def multi_f(x, k):
     return math.exp(x) * math.pow(x, k)
 
 
-def muti_g(x, k):
+def multi_g(x, k):
     return abs(x) * math.pow(x, k)
 
 
@@ -31,11 +31,26 @@ def get_bmatrix(function, k):
         bmatrix[column], wucha = integrate.quad(function, -1, 1, args=column)
     return bmatrix
 
+#将函数中math.exp(i)换为abs(i)
+def delta_f(x, cofficient, k):
+    delta = []
 
-k=3
-a = get_amatrix(k)
-b = get_bmatrix(multi_f, k)
+    for i in x:
+        pk = np.array([])
+        for j in range(0, k + 1):
+           pk = np.append(pk, [math.pow(i, j)])
+        pkplus = np.matmul(cofficient, np.transpose(pk))
+        delta.append(abs(abs(i) - pkplus))
+    return delta
 
-x = linalg.solve(a, b)
 
-print(x)
+if __name__ == '__main__':
+    k = 10
+    a = get_amatrix(k)
+    b = get_bmatrix(multi_g, k)
+    cofficient = linalg.solve(a, b)
+
+    x = np.linspace(-1, 1, 100)
+    delta = delta_f(x, cofficient, k)
+    plt.plot(x, delta)
+    plt.show()
